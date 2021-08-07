@@ -1,0 +1,7 @@
+<div class="search__container">
+  <form class="search__form" #form="ngForm" (ngSubmit)="onSubmit(form)">
+    <span class="logo" routerLink="/">Motawea GameDB</span>
+    <input type="text" class="search__input" name="search" ngModel placeholder="Search Games">
+    <button class="search__btn">Search</button>
+  </form>
+</div>
